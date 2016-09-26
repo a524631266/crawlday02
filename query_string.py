@@ -38,7 +38,7 @@ def get_search_list(keyword=None,pageid=1):
             addr=addr.text
             category=category.text
 
-            data=[name,capital,addr,category,'\n']
+            data=[name,capital,addr,category,'\n']`
             # print '|'.join(data)
             f.write('|'.join(data).encode('utf-8'))
             print '写入成功'
